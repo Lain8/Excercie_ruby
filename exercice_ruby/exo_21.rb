@@ -4,8 +4,6 @@ hashtag = "#"
 
 espace = ""
 
-soustracteur = number
-
 number.times do
 	espace = espace + " "
 end
@@ -13,9 +11,9 @@ end
 number.times do 
 	puts espace + hashtag
 	hashtag = hashtag+"#"
-	soustracteur = soustracteur-1
+	number = number-1
 	espace = ""
-	soustracteur.times do 
+	number.times do 
 		espace = espace + " "
 	end
 end
